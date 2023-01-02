@@ -1,0 +1,24 @@
+{
+  "name": "test-components-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest --environment jsdom",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "jsdom": "^20.0.3",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@testing-library/vue": "^6.6.1",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/test-utils": "^2.2.6",
+    "vite": "^4.0.0",
+    "vitest": "^0.26.2"
+  }
+}
