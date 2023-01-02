@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from '@testing-library/vue';
 import { describe, it, expect } from 'vitest';
-import ButtonCounter from '../ButtonCounter.vue';
+import ButtonCounter from '../components/ButtonCounter.vue';
 
 describe('ButtonCounter', async() => {
 	let initial = 5;

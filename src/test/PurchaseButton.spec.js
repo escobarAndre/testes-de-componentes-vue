@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
-import { factory } from '../../utils';
+import { factory } from '../utils';
 
-import PurchaseButton from '../PurchaseButton.vue/';
+import PurchaseButton from '../components/PurchaseButton.vue/';
 
 describe('PurchaseButton', () => {
 	beforeEach(() => {

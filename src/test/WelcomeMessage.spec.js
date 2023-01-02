@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { mount } from '@vue/test-utils';
-import WelcomeMessage from '../WelcomeMessage.vue';
+import WelcomeMessage from '../components/WelcomeMessage.vue';
 
 const factory = (options = {}) => {
 	return mount(WelcomeMessage, options);

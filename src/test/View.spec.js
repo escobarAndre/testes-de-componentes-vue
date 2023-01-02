@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/vue';
 import { describe, it, expect } from 'vitest';
-import View from '../View.vue';
+import View from '../components/View.vue';
 
 describe('View', () => {
 	const viewText = 'Hellow from inside a view';
